@@ -1,3 +1,9 @@
+import movies from './component/movies/movies';
+
 import '../styles/main.scss';
 
-console.error('shotz');
+const init = () => {
+  movies.initializeMovies();
+};
+
+init();

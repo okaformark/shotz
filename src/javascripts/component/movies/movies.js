@@ -9,7 +9,7 @@ const domStringBuilder = () => {
   let domString = '';
   domString += '<div class = "row">';
   movies.forEach((movie) => {
-    domString += '<div class = "col -sm-6">';
+    domString += '<div class = "col-3">';
     domString += '<div class="card border-primary mb-3" style="max-width: 18rem;">';
     domString += `<div class='card-header d-flex justify-content-center'>${movie.id}</div>`;
     domString += '<div class="card-body text-primary">';

@@ -25,10 +25,10 @@ const shootTimeClass = (shootTime) => {
   }
   return selectedClass;
 };
-const domStringBuilder = () => {
+const domStringBuilder = (locArray) => {
   let domString = '';
   domString += '<div class = "row">';
-  movieLocations.forEach((location) => {
+  locArray.forEach((location) => {
     domString += '<div class = "col-2">';
     domString += '<div class="card border-primary mb-3" style="max-width: 18rem;">';
     domString += `<h5 class="card-title card-header ${shootTimeClass(location.shootTime)}"> ${location.name}</h5>`;

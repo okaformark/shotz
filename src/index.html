@@ -8,7 +8,24 @@
 </head>
 <body>
   <div id="app">
-    <div id="movies"></div>
+    <h2>Movies:</h2>
+    <div id="movies" class="d-flex flex-wrap"></div>
+    <h2>Locations:</h2>
+    <div id="filters">
+      <div id="row">
+        <input id ="search-input" type="text" placeholder="Search Here!">
+      </div>
+      <br>
+      <div class="row">
+        <button id ="all" class="btn btn-outline-dark">All</button>
+        <button id ="morning" class="btn btn-secondary">Morning</button>
+        <button id ="afternoon" class="btn btn-sucess">Afternoon</button>
+        <button id ="evening" class="btn btn-info">Evening</button>
+        <button id ="dark" class="btn btn-danger">After Dark</button>
+      </div>
+      <br>
+    </div>
+
     <div id="locations"></div>
   </div>
 </body>

@@ -92,4 +92,4 @@ const initializeMovieLocations = () => {
     .catch(error => console.error(error));
 };
 
-export default { initializeMovieLocations };
+export default { initializeMovieLocations, domStringBuilder, movieLocations };
